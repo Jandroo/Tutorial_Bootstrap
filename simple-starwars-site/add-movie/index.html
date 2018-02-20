@@ -8,12 +8,24 @@
   </head>
 
   <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../index.html">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="../index.html">StarWars movie</a></li>
+      <li><a href="index.html">Add movie</a></li>
+    </ul>
+  </div>
+</nav>
   <div class="container">
     <div class="row">
+    <div class="col-md-3"></div>
       <div class="col-md-6">
         <section>
-          <h1>Add Movie</h1>
-          <h2>Attribution information</h2>
+          <h1 class="text-center">Add Movie</h1>
+          <h2 class="text-center">Attribution information</h2>
           <form>
           <div class="form-group">
             <label for="title">Title</label>
@@ -45,9 +57,9 @@
           <div class="form-group">
             <p class="help-block">One actress/actor per line.</p>
             <label for="music-by">Music by</label>
-          </div>
             <input class="form-control" id="music-by" type="text" name="music-by" value="">
-            <input class="btn btn-default" type="submit" name="submit" value="Add movie">
+          </div>
+            <input class="btn btn-primary" type="submit" name="submit" value="Add movie">
           </form>
         </section>
       </div>
